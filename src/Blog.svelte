@@ -5,19 +5,16 @@
 	const apiURL = "https://newsapi.org/v2/top-headlines?country=us&apiKey=f8fd87d48cf746e0a817a4f7a21bafe4&category=technology&pageSize=6";
 	let data = [];
 
-	onMount((async ()=>{
+	onMount(async ()=>{
 		const response = await axios(apiURL)
 		data = response.data.articles
-		console.log(data)
-	})());
-
+	});
 </script>
 
 <style>
       #menu-toggle:checked + #menu {
         display: block;
       }
-
 
 			#h1-head{
 				font-size: 30px;

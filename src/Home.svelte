@@ -2,7 +2,7 @@
 	import Tailwindcss from '../src/Tailwindcss.svelte';
 	import { onMount } from "svelte";
 	let src =  "./images/"
-	onMount(async function() {
+	onMount(function() {
 		typeWriter()
 	});
 

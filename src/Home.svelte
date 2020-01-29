@@ -3,27 +3,8 @@
 	import { onMount } from "svelte";
 	let src =  "./images/"
 	onMount(async function() {
-		fade()
 		typeWriter()
 	});
-
-	var opacity = 0;
-	var intervalID = 0;
-
-	function fade(){
-		intervalID = setInterval(hide,20)
-	}
-
-	function hide(){
-		var img = document.getElementById('watashi');
-		opacity = Number(window.getComputedStyle(img).getPropertyValue("opacity"));
-		if(opacity>0){
-			opacity = opacity + 0.1;
-			img.style.opacity = opacity;
-		} else {
-			clearInterval(intervalID);
-		}
-	}
 
 	var i = 0;
 	var txt = 'Hello Stranger, Welcome To My Blog.';
@@ -62,7 +43,7 @@
 
 <body class="antialiased bg-gray leading-normal tracking-normal">
   <div id="div-watashi" class="flex justify-center mt-20">
-  	<img id="watashi" width="200" src="{src}watashi.png" alt="">
+  	<img width="200" src="{src}watashi.png" alt="">
   </div>
 	<div class="flex justify-center">
 		<h2 class="pt-5 pb-5" id="h2-head"></h2>

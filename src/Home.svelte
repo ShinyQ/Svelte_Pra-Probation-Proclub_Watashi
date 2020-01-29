@@ -2,7 +2,7 @@
 	import Tailwindcss from '../src/Tailwindcss.svelte';
 	import { onMount } from "svelte";
 	let src =  "./images/"
-    const apiURL = "https://jsonplaceholder.typicode.com/todos";
+  const apiURL = "https://jsonplaceholder.typicode.com/todos";
 	let data = [];
 	onMount(async function() {
 		fade()
@@ -73,6 +73,6 @@
 	</div>
 
 	<div class="flex justify-center">
-  	<img class="mt-20" width="200" src="{src}proclub.png" alt="">
+  	<img class="mt-20" width="220" src="{src}proclub.png" alt="">
   </div>
 </body>

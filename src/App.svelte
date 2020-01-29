@@ -3,8 +3,6 @@
   import { Router, Link, Route } from "svelte-routing";
   import Home from "./Home.svelte";
   import Blog from "./Blog.svelte";
-  import About from "./About.svelte";
-  import Favorite from "./Favorite.svelte";
   import Tailwindcss from './Tailwindcss.svelte';
   export let url = "";
 </script>

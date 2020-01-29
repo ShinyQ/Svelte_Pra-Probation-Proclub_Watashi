@@ -47,8 +47,8 @@
   				<div class="hidden lg:flex lg:items-center lg:w-auto w-full svelte-1c262bi" id="menu">
       			<nav>
       				<ul class="lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
-      					<a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:text-red-600 hover:border-red-600 lg:mb-0 mb-2" href="/"><li><Link to="/" >Home</Link></li></a>
-      					<a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:text-red-600 hover:border-red-600 lg:mb-0 mb-2" href="/blog"><li><Link to="/blog" >Blog</Link></li></a>
+      					<a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:text-red-600 hover:border-red-600 lg:mb-0 mb-2" href="#"><li><Link to="/" >Home</Link></li></a>
+      					<a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:text-red-600 hover:border-red-600 lg:mb-0 mb-2" href="#"><li><Link to="/blog" >Blog</Link></li></a>
       					<!-- <a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:text-red-600 hover:border-red-600 lg:mb-0 mb-2" href="/"><li><Link to="/" >Favorite</Link></li></a>
       					<a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:text-red-600 hover:border-red-600 lg:mb-0 mb-2" href="/"><li><Link to="/" >About Me</Link></li></a> -->
       				</ul>

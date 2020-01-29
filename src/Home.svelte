@@ -2,13 +2,9 @@
 	import Tailwindcss from '../src/Tailwindcss.svelte';
 	import { onMount } from "svelte";
 	let src =  "./images/"
-  const apiURL = "https://jsonplaceholder.typicode.com/todos";
-	let data = [];
 	onMount(async function() {
 		fade()
 		typeWriter()
-        // const response = await fetch(apiURL);
-        // data = await response.json();
 	});
 
 	var opacity = 0;
